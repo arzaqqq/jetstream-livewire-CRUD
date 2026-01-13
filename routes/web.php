@@ -18,4 +18,4 @@ Route::middleware([
 });
 
 
-Route::get('/home',Home::class);
+Route::get('/home',Home::class)->name('home');
